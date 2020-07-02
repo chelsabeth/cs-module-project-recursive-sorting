@@ -11,6 +11,9 @@ def merge(arrA, arrB):
 # TO-DO: implement the Merge Sort function below recursively
 def merge_sort(arr):
     # Your code here
+    # TODO:
+    # step 1. keep splitting our arr until we have lists of length 1
+    # step 2. building those lists make up by using our "merge" function
 
 
     return arr
@@ -21,8 +24,10 @@ def merge_sort(arr):
 # or data structures; it can only re-use the memory it was given as input
 def merge_in_place(arr, start, mid, end):
     # Your code here
+    pass
 
 
 def merge_sort_in_place(arr, l, r):
     # Your code here
+    pass
 
